@@ -1,0 +1,18 @@
+/* https://justinjackson.ca/tailwind-ui-netlify */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .box {
+    @apply w-full aspect-square;
+  }
+
+  .key {
+    @apply w-8 text-xl duration-300 ease-in-out bg-gray-900 rounded-md shadow-lg shadow-gray-700 sm:w-10 sm:text-2xl md:w-12 md:text-3xl aspect-square text-gray-50 active:shadow-md;
+  }
+
+  .row {
+    @apply flex gap-1 md:gap-2 lg:gap-4;
+  }
+}
