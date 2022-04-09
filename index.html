@@ -39,12 +39,14 @@
               Before the image is gone completely. Choose wisely!
             </p>
             <section>
-              <h3>show words</h3>
+              <ul
+                class="flex flex-wrap items-center justify-center gap-4 text-4xl"
+                data-word
+              ></ul>
             </section>
           </section>
         </div>
         <section
-          data-keyboard
           class="flex flex-col items-center justify-center gap-4 duration-300 ease-linear"
         >
           <div class="row">
@@ -83,18 +85,24 @@
       </main>
     </div>
     <footer class="w-full mt-auto bg-gray-900">
-      <p class="py-4 text-sm text-center text-gray-100">
-        Built by
+      <p class="py-4 text-center text-gray-100">
+        Built by Victoria 2022
         <a
-          class="underline decoration-dotted decoration-2"
           href="https://github.com/victoriacheng15/hangman-game"
           target="_blank"
           rel="noopener"
-          >Victoria</a
-        >
-        2022
+          ><ion-icon name="logo-github"></ion-icon
+        ></a>
       </p>
     </footer>
     <script type="module" src="/main.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
