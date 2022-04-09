@@ -11,13 +11,15 @@
     class="flex flex-col justify-between w-full min-h-screen text-gray-900 bg-gradient-to-t from-green-500 to-teal-200 max-w-7xl font-san"
   >
     <header class="w-full py-4 text-center text-gray-100 bg-gray-900">
-      <h1 class="text-3xl">Let's play hangman</h1>
+      <h1 class="text-2xl sm:text-3xl">Let's play hangman</h1>
     </header>
-    <div class="w-11/12 gap-8 py-10 mx-auto">
-      <main class="flex flex-col items-center justify-center w-full gap-10">
-        <div class="flex flex-col gap-12 lg:flex-row">
+    <div class="w-11/12 gap-8 py-10 mx-auto mt-auto">
+      <main class="flex flex-col w-full gap-10">
+        <div
+          class="flex flex-col items-center justify-center gap-12 lg:flex-row"
+        >
           <section
-            class="grid w-[300px] md:w-[400px] lg:w-[500px] aspect-square grid-cols-3 grid-rows-3 bg-center bg-cover bg-[url('https://images.unsplash.com/photo-1648630684418-b2b10634732e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8Q0R3dXdYSkFiRXd8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60')]"
+            class="grid w-11/12 max-w-md aspect-square grid-cols-3 grid-rows-3 bg-center bg-cover bg-[url('https://images.unsplash.com/photo-1648630684418-b2b10634732e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8Q0R3dXdYSkFiRXd8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60')]"
           >
             <div class="box"></div>
             <div class="box"></div>
@@ -49,7 +51,15 @@
     </div>
     <footer class="w-full mt-auto bg-gray-900">
       <p class="py-4 text-sm text-center text-gray-100">
-        Built by Victoria 2022
+        Built by
+        <a
+          class="underline decoration-dotted decoration-2"
+          href="https://github.com/victoriacheng15/hangman-game"
+          target="_blank"
+          rel="noopener"
+          >Victoria</a
+        >
+        2022
       </p>
     </footer>
     <script type="module" src="/main.js"></script>
