@@ -8,11 +8,11 @@
   }
 
   .key {
-    @apply w-8 text-xl duration-300 ease-in-out bg-gray-900 rounded-md shadow-lg shadow-gray-700 sm:w-10 sm:text-2xl md:w-12 md:text-3xl aspect-square text-gray-50 active:shadow-md;
+    @apply w-10 text-xl duration-300 ease-in-out bg-gray-900 border-4 border-gray-900 rounded-sm sm:w-10 sm:text-2xl md:w-14 md:text-3xl aspect-square text-gray-50 hover:bg-gray-300 hover:text-gray-900;
   }
 
   .row {
-    @apply flex flex-wrap justify-center gap-2 md:gap-4 lg:gap-4;
+    @apply flex flex-wrap items-center justify-center gap-4;
   }
 
   .letter {
