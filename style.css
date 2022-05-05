@@ -11,6 +11,14 @@
     @apply w-10 text-xl duration-300 ease-in-out bg-gray-900 border-4 border-gray-900 rounded-sm sm:w-10 sm:text-2xl md:w-14 md:text-3xl aspect-square text-gray-50 hover:bg-gray-300 hover:text-gray-900;
   }
 
+  .hide {
+    @apply w-full bg-teal-200 aspect-square;
+  }
+
+  .clicked {
+    @apply text-gray-900 bg-gray-300;
+  }
+
   .row {
     @apply flex flex-wrap items-center justify-center gap-4;
   }
